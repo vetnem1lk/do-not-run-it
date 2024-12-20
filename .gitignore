@@ -1,0 +1,36 @@
+# .gitignore for C++ project with CMake
+
+# Build and auxiliary files
+generated/
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Editor files
+*.swp
+*.swo
+*.vim
+.idea/
+*.user
+*.sublime-*
+*.ninja
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled output
+*.out
+*.o
+*.so
+*.dll
+*.exe
+
+# Other temporary files
+*.tmp
+*.bak
+*.old
+*.core
